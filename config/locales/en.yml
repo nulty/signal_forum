@@ -2,4 +2,65 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  forem:
+    general:
+      topics: Questions
+      topic: Question
+      posts: Answers
+      posts_count:
+        zero: No answers
+        one: 1 answer
+        other: "%{count} answers"
+    admin:
+      forums:
+        index:
+          last_post: 'Last Answer:'
+      topic:
+        headings:
+          posts: Answers
+    forums:
+      index:
+        last_post: 'Last Question:'
+    forum:
+      posts_count:
+        zero: 0 answers
+        one: 1 answer
+        other: "%{count} answers"
+    topic:
+      headings:
+        posts: Answers
+        topic: Question
+      reply: Answer
+      links:
+        new: New Question
+        back_to_topics: Back to questions
+        edit: Edit question
+      new: Creating a new question
+    topics:
+      show:
+        reply: Ask a Question
+        reply_to_topic: Answer the Question
+        pending_review: This question is currently pending review. Only the user who created it and moderators can view it.
+        hide:
+          'true': Show this question
+          'false': Hide this question
+        lock:
+          'true': Unlock this question
+          'false': Lock this question
+        pin:
+          'true': Unpin this question
+          'false': Pin this question
+      not_found: The question you are looking for could not be found.
+    post:
+      buttons:
+        reply: Post Answer
+      created: Your answer has been posted.
+      new: Post answer to
+      edit: Editing answer
+      not_created: Your answer could not be posted.
+      not_created_topic_locked: You cannot answer to a locked question.
+  helpers:
+    submit:
+      topic:
+        create: Create Question
+        update: Update Question
