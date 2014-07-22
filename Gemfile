@@ -10,6 +10,7 @@ gem 'sqlite3'
 gem "devise"
 gem 'forem', :github => "radar/forem", branch: "rails3"
 gem 'will_paginate', '3.0.5'
+gem 'forem-bootstrap', :github => "radar/forem-bootstrap"
 
 # Gems used only for assets and not required
 # in production environments by default.
